@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
-      - A5-CLCP
+      - gha-service-account
   pull_request:
 
 permissions:
