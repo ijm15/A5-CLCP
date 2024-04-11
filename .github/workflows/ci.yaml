@@ -36,3 +36,7 @@ jobs:
           path: 'public'
           destination: 'A5-CLCP'
           parent: false
+      
+      - id: 'run'
+        name: sync
+        run: gsutil rsync -rd -x \.git . gs://a5clcp 
